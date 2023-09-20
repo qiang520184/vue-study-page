@@ -2,7 +2,7 @@
     <div id="codeEditBox" ref="codeEditBox"></div>
 </template>
 <script lang="ts" setup>
-import * as vscodeThemeToMonacoThemeWeb from 'vscode-theme-to-monaco-theme-web'
+import * as vscodeThemeToMonacoThemeWeb from 'vscode-theme-to-monaco-theme-web';
 
 import { json }  from '@/assets/themes/OneDarkPro'
 import html from '@/assets/grammars/html.tmLanguage.json'
