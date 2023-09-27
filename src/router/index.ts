@@ -3,6 +3,12 @@ import Index from '../views/HomeView.vue'
 
 import List from '../views/list.vue'
 
+import Card from '../views/card.vue'
+
+import Demo from '../views/demo.vue'
+
+import Demo2 from '../views/demo2.vue'
+
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,12 +30,31 @@ const router = createRouter({
             path: '/vue-ui',
             name: 'vue-ui',
             component: () => import('../views/VueUi.vue')
-        }, {
+        },
+        {
             
             path: '/list',
             name: 'list',
             component: List
-        }
+        },
+        {
+            
+            path: '/card',
+            name: 'card',
+            component: Card
+        },
+        {
+            
+            path: '/demo',
+            name: 'demo',
+            component: Demo
+        },
+        {
+            
+            path: '/demo2',
+            name: 'demo2',
+            component: Demo2
+        },
     ]
 })
 
