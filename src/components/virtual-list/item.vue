@@ -14,22 +14,22 @@ type Props = {
     text: string
   }
 }
-const props = defineProps<Props>()
-console.log('%c [ props ]-18', 'font-size:13px; background:pink; color:#bf2c9f;', props)
+defineProps<Props>()
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     .item {
-        width: 25%;
-        height: 50px;
+        /* height: 50px; */
+        box-sizing: border-box;
         padding: 0;
         margin: 0;
         display: flex;
         align-items: center;
         justify-content: center;
+        border-bottom: 1px solid red;
     }
-    .item:nth-child(2n) {
-        background-color: #f8f8f8;
-    }  
+    // .item:nth-child(2n) {
+    //     background-color: #f8f8f8;
+    // }  
 </style>
