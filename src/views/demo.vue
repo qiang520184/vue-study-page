@@ -4,7 +4,10 @@
       <input type="checkbox" id="overflowtext-exp" />
       <div class="overflowtext-text">
         <label class="overflowtext-btn" for="overflowtext-exp"></label>
-        should be carefully prepared in order to give the school an overall and accurate sumshould be carefully prepared in order to give the school an overall and accurate sumshould be carefully prepared in order to give the school an overall and accurate sumshould be carefully prepared in order to give the school an overall and accurate sumshould be carefully prepared in order to give the school an overall and accurate sum
+        should be carefully prepared in order to give the school an overall and accurate
+         sumshould be carefully prepared in order to give the school an overall and accurate
+          sumshould be carefully prepared in order to give the school an overall and accurate 
+          sumshould be carefully prepared in order to give the school an overall and accurate sumshould be carefull
       </div>
     </div>
   </div>
@@ -17,7 +20,7 @@
   /**其他样式**/
   width: 320px;
   height: 200px;
-  background-color: rgb(231, 255, 255);
+  background-color: yellowgreen;
   position: absolute;
   left: calc(50% - 150px);
   line-height: 25px;
@@ -50,6 +53,7 @@
         float: right;
         width: 0px;
         height: 100%;
+        background-color: pink;
         margin-bottom: -25px; /**和主体行高一样**/
       }
       /**遮挡方块：和.overflowtext-box背景颜色设置一样的，为了在不溢出文字的时候遮挡展开按钮**/
@@ -58,7 +62,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
-        background-color: rgb(231, 255, 255);
+        background-color: #ffede7;
       }
     }
     /**选框（隐藏）**/
