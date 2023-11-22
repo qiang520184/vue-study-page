@@ -9,6 +9,9 @@ import Demo from '../views/demo.vue'
 
 import Demo2 from '../views/demo2.vue'
 
+import ReadWord from '@/components/read-word/index.vue'
+
+
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -55,6 +58,13 @@ const router = createRouter({
             name: 'demo2',
             component: Demo2
         },
+        {
+            
+            path: '/read-word',
+            name: 'read-word',
+            component: ReadWord
+        },
+        
     ]
 })
 

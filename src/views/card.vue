@@ -1,280 +1,122 @@
 <template>
-  <div class="wrap">
-    <div class="card-box">
-      <div :class="['card']">
-        <div class="card-padding">
-          <div class="title">
-            <span class="title-content">
-              The ________ should be carefully prepared in order to give the school an overall and
-              accurate summary of your abilities.
-            </span>
-            <div class="title-icon">
-              <span>@</span>
-            </div>
-          </div>
-          <div class="content">
-            adv.大约，左右到处，处处，各处将近，几乎prep.关于，对于；涉及……方面在……到处，在……各处
 
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card-box">
-      <div :class="['card']">
-        <div class="card-padding">
-          <div class="title">
-            <span class="title-content">
-              The ________ should be carefully prepared in order to give the school an overall and
-              accurate summary of your abilities. accurate summary of your abilities. accurate
-              summary of your abilities. accurate summary of your abilities. accurate summary of
-              your abilities. accurate summary of your abilities. accurate summary of your
-              abilities. accurate summary of your abilities. accurate summary of your abilities.
-            </span>
-            <div class="title-icon">
-              <span>@</span>
-            </div>
-          </div>
-          <div class="content">
-            adv.大约，左右到处，处处，各处将近，几乎prep.关于，对于；涉及……方面在……到处，在……各处
-            The ________ should be carefully prepared in order to give the school an overall and
-            accurate summary of your abilities.
-            ________应该仔细准备，以便向学校全面准确地总结你的能力。
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-box">
-      <div :class="['card']">
-        <div class="card-padding">
-          <div class="title">
-            <span class="title-content">
-              The ________ should be carefully prepared in order to give the school an overall and
-              accurate summary of your abilities. accurate summary of your abilities. accurate
-              summary of your abilities. accurate summary of your abilities. accurate summary of
-              your abilities. accurate summary of your abilities. accurate summary of your
-              abilities. accurate summary of your abilities. accurate summary of your abilities.
-            </span>
-            <div class="title-icon">
-              <span>@</span>
-            </div>
-          </div>
-          <div class="content">
-            adv.大约，左右到处，处处，各处将近，几乎prep.关于，对于；涉及……方面在……到处，在……各处
-            The ________ should be carefully prepared in order to give the school an overall and
-            accurate summary of your abilities.
-            ________应该仔细准备，以便向学校全面准确地总结你的能力。
-          </div>
-        </div>
-      </div>
-      <div :class="['card', { open: openStatus },  {close: !openStatus }]">
-        <div class="card-padding">
-          <div class="title">
-            <span class="title-content">
-              The ________ should be carefully prepared in order to give the school an overall and
-              accurate summary of your abilities. accurate summary of your abilities. accurate
-              summary of your abilities. accurate summary of your abilities. accurate summary of
-              your abilities. accurate summary of your abilities. accurate summary of your
-              abilities. accurate summary of your abilities. accurate summary of your abilities.
-            </span>
-            <div class="title-icon">
-              <span>@</span>
-            </div>
-          </div>
-          <div class="content">
-            adv.大约，左右到处，处处，各处将近，几乎prep.关于，对于；涉及……方面在……到处，在……各处
-            The ________ should be carefully prepared in order to give the school an overall and
-            accurate summary of your abilities.
-            ________应该仔细准备，以便向学校全面准确地总结你的能力。
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-box">
-      <div :class="['card']">
-        <div class="card-padding">
-          <div class="title">
-            <span class="title-content">
-              The ________ should be carefully prepared in order to give the school an overall and
-              accurate summary of your abilities. accurate summary of your
-            </span>
-            <div class="title-icon">
-              <span>@</span>
-            </div>
-          </div>
-          <div class="content">
-            adv.大约，左右到处，处处，各处将近，几乎prep.关于，对于；涉及……方面在……到处，在……各处；涉及……方面在……到处，在……各处 Th；涉及……方面在……到处，在……各处 Th；涉及……方面在……到处，在……各处 Th The12313fff1 <span style="color: red;">123</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card-box">
-      <div :class="['card']">
-        <div class="card-padding">
-          <div class="title">
-            <span class="title-content">
-              The ________ should be carefully prepared in order to give the school an overall and
-              accurate summary of your abilities. accurate summary of your abilities. accurate
-              summary of your abilities. accurate summary of your abilities. accurate summary of
-              your abilities. accurate summary of your abilities. accurate summary of your
-              abilities. accurate summary of your abilities. accurate summary of your abilities.
-            </span>
-            <div class="title-icon">
-              <span>@</span>
-            </div>
-          </div>
-          <div class="content">
-            adv.大约，左右到处，处处，各处将近，几乎prep.关于，对于；涉及……方面在……到处，在……各处
-            The ________ should be carefully prepared in order to give the school an overall and
-            accurate summary of your abilities.
-            ________应该仔细准备，以便向学校全面准确地总结你的能力。
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card-box">
-      <div :class="['card']">
-        <div class="card-padding">
-          <div class="title">
-            <span class="title-content">
-              The ________ should be carefully prepared in order to give the school an overall and
-              accurate summary of your abilities. accurate summary of your abilities. accurate
-              summary of your abilities. accurate summary of your abilities. accurate summary of
-              your abilities. accurate summary of your abilities. accurate summary of your
-              abilities. accurate summary of your abilities. accurate summary of your abilities.
-            </span>
-            <div class="title-icon">
-              <span>@</span>
-            </div>
-          </div>
-          <div class="content">
-            adv.大约，左右到处，处处，各处将近，几乎prep.关于，对于；涉及……方面在……到处，在……各处
-            The ________ should be carefully prepared in order to give the school an overall and
-            accurate summary of your abilities.
-            ________应该仔细准备，以便向学校全面准确地总结你的能力。
-          </div>
-        </div>
-      </div>
+<!-- <div class="wrap">
+  <button class="trigger">鼠标放上来试试</button>
+  <div class="grid">
+    <div>
+      <p>
+        欢迎关注前端侦探
+      </p>
     </div>
   </div>
-  <div class="control">
-    <button @click="open">展开</button>
-    <button @click="close">收起</button>
+</div> -->
+<!-- <div class="wrap">
+  <button class="trigger">鼠标放上来试试（较多文本）</button>
+  <div class="grid">
+    <div>
+      <p>
+        欢迎关注前端侦探，这里有一些有趣的、你可能不知道的HTML、CSS、JS小技巧技巧，比如这篇文章，如何让
+        auto height 支持过渡动画？一起看看吧
+      </p>
+    </div>
   </div>
+</div> -->
+
+
+<div class="g-contaner">
+    <div class="g-btn">Hover Me</div>
+    <p class="content">
+    能够适配任意高度。能够适配任意高度。能够适配任意高度。
+    </p>
+</div>
+
+<div class="g-contaner">
+    <div class="g-btn">Hover Me</div>
+    <p class="content">
+    能够适配任意高度。能够适配任意高度。能够适配任意高度。能够适配任意高度。能够适配任意高度。能够适配任意高度。
+    </p>
+</div>
+
 </template>
 
-<script lang="ts" setup>
-import { ref } from 'vue'
-
-const openStatus = ref(false)
-const open = () => {
-  console.log('open')
-  openStatus.value = true
-}
-
-const close = () => {
-  console.log('close')
-  openStatus.value = false
-}
-</script>
 
 <style scoped lang="scss">
-.wrap {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-top: 30px;
-}
-.control {
-  position: fixed;
-  top: 500px;
-}
-.card-box {
-    position: relative;
-}
-.card {
-  position: relative;
-  width: 312px;
-  height: 202px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  //   background: pink;
-  border-radius: 8px;
-  margin: 0 auto;
-  border: 2px solid pink;
-  &-padding {
-    // position: absolute;
-    // top: 0;
-    // right: 0;
-    // bottom: 0;
-    // left: 0;
-    // margin: auto;
-    flex-shrink: 0;
+// html,
+// body {
+//   margin: 0;
+//   height: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: aliceblue;
+//   gap: 15px
+// }
+// .trigger {
+//   border: 0;
+//   background-color: royalblue;
+//   color: #fff;
+//   outline: 0;
+//   font-size: 16px;
+//   padding: 0.4em 1em;
+//   border-radius: 0.2em;
+//   cursor: pointer;
+// }
+// .grid {
+//   position: absolute;
+//   margin-top: 10px;
+//   max-width: 250px;
+//   border-radius: 5px;
+//   display: grid;
+//   grid-template-rows: 0fr;
+//   transition: 0.3s;
+//   overflow: hidden;
+//   background-color: rgba(0, 0, 0, 0.65);
+//   color: #fff;
+// }
+// .grid > * {
+//   min-height: 0;
+//   padding: 0 10px;
+// }
+// .wrap:hover .grid {
+//   grid-template-rows: 1fr;
+// }
+// span {
+//   padding: 10px;
+// }
+
+body, html {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    padding: 16px 0 26px;
-    width: calc(100% - (16px * 2));
-    height: calc(100%);
-    background-color: #fff;
-  }
-}
-.card.open {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: initial;
-    min-height: 202px;
-    background: #fff;
-    z-index: 99;
-}
-.card.close {
-    position: absolute;
-    top: 0;
-    left: 0;
-    // height: initial;
-    // min-height: 202px;
-    z-index: 99;
+    flex-direction: row;
+    padding: 20px;
 }
 
-.title {
-  max-height: 100%;
-  flex-shrink: 0;
-  display: flex;
-  font-size: 20px;
-  font-family: Microsoft YaHei-Bold, Microsoft YaHei;
-  font-weight: 700;
-  color: #485766;
-  line-height: 22px;
-  overflow: hidden;
-  &-content {
-    // flex: 1;
-  }
-  &-icon {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    padding-left: 16px;
-    span {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      background-color: rgba(107, 171, 255, 1);
-    }
-  }
+.g-contaner {
+    width: 300px;
 }
-.content {
-  flex: 1; /* 占满剩余部分 */
-  margin-top: 8px;
-  font-size: 14px;
-  font-family: Microsoft YaHei-Regular, Microsoft YaHei;
-  font-weight: 400;
-  color: #99a3ae;
-  line-height: 22px;
-  overflow: hidden;
+
+p {
+    width: 200px;
+    max-height: 50px;
+    box-sizing: border-box;
+    line-height: 24px;
+    background: #ddd;
+    overflow: hidden;
+    transition: all .3s linear;
 }
+
+.g-btn {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.g-btn:hover ~ .content {
+    max-height: 300px;
+}
+
+
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="list">
+  <div class="list" v-loading="loading">
     <virtualList :list="items" :rows="rows" :itemHeight="itemHeight" :viewHeight="1000">
       <template v-slot="{ data }">
         <MyComponent
@@ -47,7 +47,15 @@ const items = computed(() => {
 const itemHeight = 100
 
 const rows = ref(5)
+const loading = ref(false)
 
+setTimeout (() => {
+    loading.value = true
+}, 2000)
+
+setTimeout (() => {
+    loading.value = false
+}, 4000)
 const getData = (count: number) => {
   const data = []
   for (let index = 0; index < count; index++) {

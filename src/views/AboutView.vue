@@ -25,7 +25,7 @@ const map = {
 const editor = ref()
 const codeEditBox = ref()
 let hasGetWorkUrl = false
-const language = ref("javascript")
+const language = ref("vue")
 
 let themeData = vscodeThemeToMonacoThemeWeb.convertTheme(th)
 

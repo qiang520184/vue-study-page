@@ -6,32 +6,24 @@
         <label class="overflowtext-btn" for="overflowtext-exp"></label>
         should be carefully prepared in order to give the school an overall and accurate
         sumshould be carefully prepared in order to give the school an overall and accurate
-        sumshould be carefully prepared in order to give the school an overall and accurate 
-        sumshould be carefully prepared in order to give the school an overall and accurate sumshould be carefull
+          sumshould be carefully prepared in order to give the school an overall and accurate 
+          sumshould be carefully prepared in order to give the school an overall and accurate sumshould be carefull
       </div>
     </div>
   </div>
-
-<div class="wrap">123123</div>
 </template>
 
 <script setup lang="ts"></script>
 
 <style scoped lang="scss">
-.wrap:hover + .overflowtext-box {
-  max-height: 800px; /*大概的值，需要超过元素高度*/
-}
-
 .overflowtext-box {
   /**其他样式**/
   width: 320px;
-  max-height: 220px;
-  transition: 1s;
+  height: 200px;
   background-color: yellowgreen;
   position: absolute;
   left: calc(50% - 150px);
   line-height: 25px;
-  transition: height 1s ease;
   top: 200px;
   /**关键代码-超出隐藏遮挡方块**/
   overflow: hidden;
@@ -45,11 +37,9 @@
       -webkit-box-orient: vertical;
       overflow: hidden;
       word-wrap: break-word;
-      /* word-break: break-all; */
+      word-break: break-all;
       /** 设置float有文字环绕效果**/
       .overflowtext-btn {
-        width: 100%;
-        text-align: center;
         float: right;
         clear: both;
         &::after {
@@ -64,8 +54,7 @@
         width: 0px;
         height: 100%;
         background-color: pink;
-        /**和主体行高一样**/
-        margin-bottom: -25px;
+        margin-bottom: -25px; /**和主体行高一样**/
       }
       /**遮挡方块：和.overflowtext-box背景颜色设置一样的，为了在不溢出文字的时候遮挡展开按钮**/
       &::after {
@@ -83,7 +72,7 @@
     /**选中时：显示行数加大**/
     #overflowtext-exp:checked + .overflowtext-text {
       -webkit-line-clamp: 999;
-      max-height: auto;
+      max-height: none;
       /**选中时：隐藏遮挡方块**/
       &::after {
         visibility: hidden;
